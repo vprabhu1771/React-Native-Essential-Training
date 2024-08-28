@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=lUiHQ9jrZCs
+
+https://github.com/burhanuday/invoice-scanner-react-native

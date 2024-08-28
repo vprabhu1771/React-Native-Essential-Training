@@ -1,0 +1,25 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, Platform } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+
+      <Text>OS Platform: {Platform.OS}</Text>
+
+      <Text>OS Version: {Platform.Version}</Text>
+      
+      <StatusBar style="auto" />
+
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
